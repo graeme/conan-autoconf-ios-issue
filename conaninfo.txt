@@ -1,0 +1,35 @@
+[settings]
+    arch=x86_64
+    build_type=Debug
+    compiler=apple-clang
+    compiler.cppstd=17
+    compiler.libcxx=libc++
+    compiler.version=12.0
+    os=Macos
+
+[requires]
+    autoconf/2.Y.Z
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    build_type=Debug
+    compiler=apple-clang
+    compiler.cppstd=17
+    compiler.libcxx=libc++
+    compiler.version=12.0
+    os=Macos
+
+[full_requires]
+    autoconf/2.71:cc471ed355602ffa7007968c83aa4e7e648a38b5
+
+[full_options]
+
+
+[recipe_hash]
+
+
+[env]
+    CC_FOR_BUILD=/usr/bin/apple-clang

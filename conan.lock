@@ -1,0 +1,34 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "options": "",
+    "requires": [
+     "1"
+    ],
+    "path": "conanfile.txt",
+    "context": "host"
+   },
+   "1": {
+    "ref": "autoconf/2.71",
+    "options": "",
+    "package_id": "cc471ed355602ffa7007968c83aa4e7e648a38b5",
+    "prev": "0",
+    "requires": [
+     "2"
+    ],
+    "context": "host"
+   },
+   "2": {
+    "ref": "m4/1.4.18",
+    "options": "",
+    "package_id": "907cb07dbeb8f7bacd51a5119560f14986d21b20",
+    "prev": "0",
+    "context": "host"
+   }
+  },
+  "revisions_enabled": false
+ },
+ "version": "0.4",
+ "profile_host": "[settings]\narch=x86_64\nbuild_type=Debug\ncompiler=apple-clang\ncompiler.cppstd=17\ncompiler.libcxx=libc++\ncompiler.version=12.0\nos=Macos\n[options]\n[build_requires]\n[env]\nCC_FOR_BUILD=/usr/bin/apple-clang"
+}
