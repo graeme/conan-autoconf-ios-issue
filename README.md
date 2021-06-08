@@ -1,5 +1,5 @@
-# conan-autom4te-ios-issue
-Demo project for autom4te build error when cross-building from macOS to iOS
+# conan-autoconf-ios-issue
+Demo project for autoconf build error when cross-building from macOS to iOS
 
 This project demonstrates what appears to be a bug in the autoconf Conan recipe when cross-building from MacOS for an iOS host. To reproduce, check out the project and run `conan install . --build missing -pr:h ios-profile` from the root directory. The resulting build failure is `autom4te: error: need GNU m4 1.4 or later: /usr/bin/env m4` despite a previous step building `m4 1.4.18` and setting an environment variable to its path.
 
